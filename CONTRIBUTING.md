@@ -64,6 +64,12 @@ git push origin feat/community/SEU_USERNAME
 >[!WARNING]
 > Caso você tenha criado seu arquivo diretamente no repositório remoto no GitHub, esse processo não será necessário.
 
+> #### nota
+
+Git status: responsável por mostrar os status da árvore de trabalho e da área de preparação (staging area).
+```bash
+ git status [<opções>] [--] [<pathspec>…​]
+```
 ### 8) Crie um **Pull Request**.
 
 Atente-se para a seguir as orientações para a contribuição, principalmente:
@@ -93,3 +99,4 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
 - [GITHUB. Configurar diretrizes para os contribuidores do repositório](https://docs.github.com/pt/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+- [https://git-scm.com/docs/git-status)
